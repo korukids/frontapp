@@ -106,6 +106,7 @@ RSpec.describe 'Messages' do
   it "can send a message from a channel" do
     data = {
       author_id: "alt:email:leela@planet-exress.com",
+      sender_name: 'Leela',
       subject: "Good news everyone!",
       body: "Why is Zoidberg the only one still alone?",
       text: "Why is Zoidberg the only one still alone?",
@@ -127,6 +128,7 @@ RSpec.describe 'Messages' do
   it "can send a reply" do
     data = {
       author_id: "alt:email:leela@planet-exress.com",
+      sender_name: 'Leela',
       subject: "Good news everyone!",
       body: "Why is Zoidberg the only one still alone?",
       text: "Why is Zoidberg the only one still alone?",
